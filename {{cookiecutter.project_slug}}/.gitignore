@@ -1,0 +1,84 @@
+# --- Bytecode/Optimized ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- C Extensions ---
+*.so
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
+wheels/
+*.egg
+
+# --- Virtual Environments ---
+.env
+.env.*
+!.env.example
+.venv
+venv/
+ENV/
+env/
+
+# --- Test & Coverage Reports (Keep patterns even if tests dir removed, user might add later) ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets & Credentials ---
+*.pem
+*.key
+credentials*
+secrets/
+*.secret
+.aws/
+.gcp/
+
+# --- MLflow ---
+mlruns/
+
+# --- Data Files (Generally not versioned with Git) ---
+# Consider using DVC or similar tools for data versioning
+data/raw/
+data/processed/
+data/interim/ # Add if you use this stage
+data/external/ # Add if you use this stage
+
+# --- Model & Output Artifacts (Generally not versioned with Git) ---
+# Use MLflow, DVC, or cloud storage
+outputs/
+models/ # If storing serialized models directly
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.onnx
+*.pb
+*.pt
+
+# --- User Specific (As requested) ---
+.clinerules
+/memory-bank/
+
+# --- Temporary Files ---
+*.tmp
+*.bak
+*.log

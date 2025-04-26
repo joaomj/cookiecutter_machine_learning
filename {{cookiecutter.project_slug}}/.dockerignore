@@ -1,0 +1,73 @@
+# Exclude files not needed in the Docker image build context
+
+# --- Git ---
+.git/
+.gitignore
+
+# --- Docker ---
+Dockerfile
+.dockerignore
+
+# --- Virtual Environments ---
+.env*
+!.env.example
+.venv/
+venv/
+ENV/
+env/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+
+# --- Tests & Coverage (Removed) ---
+# tests/
+# .pytest_cache/
+# .coverage*
+# htmlcov/
+
+# --- Notebooks (usually not needed in image) ---
+notebooks/
+.ipynb_checkpoints
+
+# --- Data (should be mounted or accessed externally) ---
+data/
+
+# --- Outputs (generated at runtime) ---
+outputs/
+mlruns/
+*.log
+
+# --- Configs (often mounted or passed as env vars) ---
+# configs/ # Uncomment if mounting configs
+
+# --- Docs ---
+docs/
+site/
+
+# --- Development Files ---
+Makefile
+*.md # README, etc. (optional, reduces image size slightly)
+LICENSE
+
+# --- User Specific (As requested) ---
+.clinerules
+memory-bank/
+
+# --- Secrets (should never be in the image) ---
+*.pem
+*.key
+credentials*
+secrets/
+*.secret
+.aws/
+.gcp/
+
+# --- Temp/OS/IDE files ---
+*.tmp
+*~
+*.swp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

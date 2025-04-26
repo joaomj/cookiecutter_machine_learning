@@ -1,0 +1,9 @@
+# {{cookiecutter.project_slug}}/.github/CODEOWNERS
+
+# This file maps repository paths to users or teams responsible for them.
+# When a pull request changes files matching a pattern, the specified
+# owners are automatically requested for review.
+
+# Assign ownership of all files and directories in the repository
+# to the user specified in cookiecutter.json
+* @{{ cookiecutter.github_username }}

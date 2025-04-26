@@ -1,0 +1,22 @@
+# requirements.txt
+# Add your project's core Python dependencies here.
+# Example:
+# pandas
+# numpy
+# scikit-learn
+# fastapi
+# python-dotenv
+# boto3
+
+# For development dependencies (e.g., notebooks), consider
+# using a separate file like 'requirements-dev.txt' or managing
+# dependencies with tools like Poetry or PDM (using pyproject.toml).
+# If using separate files, ensure your Dockerfile only installs production dependencies.
+# Example dev dependencies:
+# jupyterlab
+# Add testing/linting tools here if you re-introduce them (e.g., pytest, ruff)
+
+# After installing dependencies in your virtual environment, you can
+# generate a pinned list for reproducibility using:
+#   pip freeze > requirements.txt
+# Or use your chosen dependency management tool's lock mechanism.

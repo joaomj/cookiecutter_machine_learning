@@ -57,7 +57,7 @@ mlruns/
 
 # --- Data Files (Generally not versioned with Git) ---
 # Consider using DVC or similar tools for data versioning
-# data/ # -- Commented to keep an example of the structure on Github. Remove comment when working with the real thing!!
+# data/ # REMOVE COMMENT WHEN WORKING WITH REAL PROJECTS
 
 # --- Model & Output Artifacts (Generally not versioned with Git) ---
 # Use MLflow, DVC, or cloud storage

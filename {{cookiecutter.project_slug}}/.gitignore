@@ -57,15 +57,12 @@ mlruns/
 
 # --- Data Files (Generally not versioned with Git) ---
 # Consider using DVC or similar tools for data versioning
-data/raw/
-data/processed/
-data/interim/ # Add if you use this stage
-data/external/ # Add if you use this stage
+# data/ # REMOVE COMMENT WHEN WORKING WITH REAL PROJECTS
 
 # --- Model & Output Artifacts (Generally not versioned with Git) ---
 # Use MLflow, DVC, or cloud storage
 outputs/
-models/ # If storing serialized models directly
+# models/ # REMOVE COMMENT WHEN WORKING WITH REAL PROJECTS
 *.pkl
 *.joblib
 *.h5
@@ -75,7 +72,7 @@ models/ # If storing serialized models directly
 *.pt
 
 # --- Cline ---
-#.clinerules
+.clinerules
 /memory-bank/
 
 # --- Temporary Files ---

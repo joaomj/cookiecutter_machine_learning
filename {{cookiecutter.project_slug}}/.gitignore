@@ -62,7 +62,7 @@ mlruns/
 # --- Model & Output Artifacts (Generally not versioned with Git) ---
 # Use MLflow, DVC, or cloud storage
 outputs/
-models/ # If storing serialized models directly
+# models/ # REMOVE COMMENT WHEN WORKING WITH REAL PROJECTS
 *.pkl
 *.joblib
 *.h5

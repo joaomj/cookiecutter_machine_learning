@@ -84,9 +84,9 @@
 
 ## Usage
 
-* **Data Processing:** `python src/{{ cookiecutter.project_slug }}/data/make_dataset.py` (Modify as needed)
-* **Training:** `python src/{{ cookiecutter.project_slug }}/models/train_model.py` (Modify as needed)
-* **API (if applicable):** `uvicorn src.{{ cookiecutter.project_slug }}.api.main:app --reload` (Modify as needed, requires `fastapi` and `uvicorn` in `requirements.txt`)
+* **Data Processing:** `python src/{{cookiecutter.project_slug}}/data/make_dataset.py` (Modify as needed)
+* **Training:** `python src/{{cookiecutter.project_slug}}/models/train_model.py` (Modify as needed)
+* **API (if applicable):** `uvicorn src.{{cookiecutter.project_slug}}.api.main:app --reload` (Modify as needed, requires `fastapi` and `uvicorn` in `requirements.txt`)
 
 (Consider adding details on how to run commands via `Makefile` if you include one)
 

@@ -74,8 +74,8 @@ models/ # If storing serialized models directly
 *.pb
 *.pt
 
-# --- User Specific (As requested) ---
-.clinerules
+# --- Cline ---
+#.clinerules
 /memory-bank/
 
 # --- Temporary Files ---
